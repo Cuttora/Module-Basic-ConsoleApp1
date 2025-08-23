@@ -4,15 +4,15 @@
     {
         static void Main(string[] args)
         {
-            const string MyName = "Leonid";
-            Console.WriteLine(MyName);
-            
+            string MyName = "Leonid";
+            int MyAge = 19;
+            bool HaveIApet = true;
+            double MyShoeSize = 42.5;
 
-            Console.WriteLine("\tПривет, мир");
-            Console.WriteLine("\tМне 27 лет");
-            Console.WriteLine("\tMy name is \n Leonid");
-            Console.WriteLine("\u0040");
-            Console.WriteLine("\x23");
+            Console.WriteLine("My name is " + MyName);
+            Console.WriteLine("My age is {0}",MyAge);
+            Console.WriteLine($"Do I have a pet? {HaveIApet}");
+            Console.WriteLine("My shoe size is " + MyShoeSize);
 
             Console.ReadKey();
         }
