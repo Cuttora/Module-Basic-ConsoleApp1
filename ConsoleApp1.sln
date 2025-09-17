@@ -3,15 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DB65BFB4-54E4-4F3E-8D37-D1870B0B5892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "questionnaire", "ConsoleApp1\questionnaire.csproj", "{DB65BFB4-54E4-4F3E-8D37-D1870B0B5892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{0945BE55-1304-4DEF-B595-D24CDD76ACA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name,age,hobby", "ConsoleApp2\name,age,hobby.csproj", "{0945BE55-1304-4DEF-B595-D24CDD76ACA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysOfWeek", "DaysOfWeek\DaysOfWeek.csproj", "{A463A233-F0B1-4801-8A11-4C632734D32A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{631638F1-0E4E-4DC8-AD34-968B032069E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "questionnaire_dateOfBirth", "ConsoleApp3\questionnaire_dateOfBirth.csproj", "{631638F1-0E4E-4DC8-AD34-968B032069E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{31AB5F18-2F99-4013-A10B-9B98C552DAD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_favcolor", "ConsoleApp4\array_favcolor.csproj", "{31AB5F18-2F99-4013-A10B-9B98C552DAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_versa", "ConsoleApp5\array_versa.csproj", "{1158DADD-A839-4686-BDC2-BCF011871A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch_color", "ConsoleApp6\switch_color.csproj", "{739EC3C9-0AF4-4F5E-A639-9431A52EEBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serrated array", "ConsoleApp7\serrated array.csproj", "{3DB6C147-27C6-49FB-964B-DF5254611BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task", "task\task.csproj", "{38C80D04-9088-4D7B-9557-CD7D2E9A6045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorting a two-dimensional array", "sorting a two-dimensional array\sorting a two-dimensional array.csproj", "{AAE68CCB-6F6E-4F9F-9490-C2AC04A24244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cortege_questionnaire", "Cortege_\Cortege_questionnaire.csproj", "{3DEF6079-DF11-4258-AD25-DC6C966822D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,30 @@ Global
 		{31AB5F18-2F99-4013-A10B-9B98C552DAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AB5F18-2F99-4013-A10B-9B98C552DAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AB5F18-2F99-4013-A10B-9B98C552DAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1158DADD-A839-4686-BDC2-BCF011871A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1158DADD-A839-4686-BDC2-BCF011871A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1158DADD-A839-4686-BDC2-BCF011871A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1158DADD-A839-4686-BDC2-BCF011871A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739EC3C9-0AF4-4F5E-A639-9431A52EEBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739EC3C9-0AF4-4F5E-A639-9431A52EEBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739EC3C9-0AF4-4F5E-A639-9431A52EEBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739EC3C9-0AF4-4F5E-A639-9431A52EEBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB6C147-27C6-49FB-964B-DF5254611BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB6C147-27C6-49FB-964B-DF5254611BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB6C147-27C6-49FB-964B-DF5254611BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB6C147-27C6-49FB-964B-DF5254611BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C80D04-9088-4D7B-9557-CD7D2E9A6045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C80D04-9088-4D7B-9557-CD7D2E9A6045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C80D04-9088-4D7B-9557-CD7D2E9A6045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C80D04-9088-4D7B-9557-CD7D2E9A6045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE68CCB-6F6E-4F9F-9490-C2AC04A24244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE68CCB-6F6E-4F9F-9490-C2AC04A24244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE68CCB-6F6E-4F9F-9490-C2AC04A24244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE68CCB-6F6E-4F9F-9490-C2AC04A24244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

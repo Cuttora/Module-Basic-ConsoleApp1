@@ -4,32 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+            string[] favcolors = new string[3];
 
-            var color = Console.ReadLine();
-
-            if (color == "red")
+            for (int i = 0; i < favcolors.Length; i++)
             {
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.ForegroundColor = ConsoleColor.Black;
-
-                Console.WriteLine("Your color is red!");
+                Console.WriteLine("Введите любимый цвет номер {0}", i + 1);
+                favcolors[i] = Console.ReadLine();
             }
 
-            else if (color == "green")
+            foreach (var color in favcolors)
             {
-                Console.BackgroundColor = ConsoleColor.Green;
-                Console.ForegroundColor = ConsoleColor.Black;
-
-                Console.WriteLine("Your color is green!");
-            }
-            else
-            {
-                Console.BackgroundColor = ConsoleColor.Cyan;
-                Console.ForegroundColor = ConsoleColor.Black;
-
-                Console.WriteLine("Your color is cyan!");
+                foreach (var item in color)
+                {
+                    Console.Write(item + " ");
+                }
             }
         }
+            
     }
 }
