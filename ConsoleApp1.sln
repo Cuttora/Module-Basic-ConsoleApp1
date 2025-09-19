@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorting a two-dimensional a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cortege_questionnaire", "Cortege_\Cortege_questionnaire.csproj", "{3DEF6079-DF11-4258-AD25-DC6C966822D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavDishes", "FavDishes\FavDishes.csproj", "{0F9A7393-AD98-43CB-ADB9-9452A8BA0BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practice", "practice\practice.csproj", "{A5C566A5-1BF3-4F97-BE33-E81B84267CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DEF6079-DF11-4258-AD25-DC6C966822D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9A7393-AD98-43CB-ADB9-9452A8BA0BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A7393-AD98-43CB-ADB9-9452A8BA0BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A7393-AD98-43CB-ADB9-9452A8BA0BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9A7393-AD98-43CB-ADB9-9452A8BA0BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C566A5-1BF3-4F97-BE33-E81B84267CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C566A5-1BF3-4F97-BE33-E81B84267CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C566A5-1BF3-4F97-BE33-E81B84267CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C566A5-1BF3-4F97-BE33-E81B84267CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
